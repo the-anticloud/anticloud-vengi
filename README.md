@@ -1,14 +1,12 @@
 # VENGI
 
-> This directory contains the full 30-folder standard documentation set for `VENGI`:
+> The mission: Create a free, open-source and multi-platform voxel editor and command line tools with animation support to support artists and developers.
 
-**Category:** VOXELIZATION · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/CTSRD-CHERI/QuickCheckVEngine · **Pinned commit:** `5e15965a819ca1be9f14d2e8e319e98fd89a557f` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/CTSRD-CHERI/QuickCheckVEngine` as the implementation for the `VENGI` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** VOXELIZATION · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/vengi-voxel/vengi · **Pinned commit:** `c7d5b7cd7fe48baa4b29258ef5f92af59da95325` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-This directory contains the full 30-folder standard documentation set for `VENGI`:
+The mission: Create a free, open-source and multi-platform voxel editor and command line tools with animation support to support artists and developers.
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
@@ -43,7 +41,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-47c355c98a5ba99e91c41d09aab1f5ab31e7bfd3e961dbdef74d41cd1272aba4
+4bcc41e61c0ea3336c99aa70b15fda8edfbac8e3ca7a812198502ca2f9fc2c9d
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

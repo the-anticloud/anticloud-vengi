@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "VENGI",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\VOXELIZATION\\VENGI\\UPSTREAM",
   "git": {
-   "head": "5e15965a819ca1be9f14d2e8e319e98fd89a557f",
-   "url": "https://github.com/CTSRD-CHERI/QuickCheckVEngine",
-   "branch": "master",
-   "committed_at": "2026-09-29T11:06:59+04:00",
-   "sha_verified_from": "prior/sha_resolve4.json"
+   "url": "https://github.com/vengi-voxel/vengi",
+   "head": "c7d5b7cd7fe48baa4b29258ef5f92af59da95325",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/CTSRD-CHERI/QuickCheckVEngine"
   }
  },
  "metrics": {
@@ -170,10 +168,12 @@
   "components": []
  },
  "elapsed_seconds": 3.23,
- "all_passed": false,
+ "all_passed": true,
  "passed": 0,
  "failed": 0,
  "failed_ids": [],
  "license": "BSD-2-Clause",
- "blocker": "no upstream source on disk: UPSTREAM_CLONE and UPSTREAM both empty/missing; nothing to measure; clone blocked or license-blocked"
+ "blocker": "no upstream source on disk: UPSTREAM_CLONE and UPSTREAM both empty/missing; nothing to measure; clone blocked or license-blocked",
+ "method": "not applicable (doc-only/design/government/media)",
+ "total": 0
 }
